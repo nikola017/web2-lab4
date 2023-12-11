@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstracija HTTP/2</title>
+    <script src="js/showZebras.js"></script>
+    <script src="js/showLargestDifference.js"></script>
+    <script src="js/showAllOtherImages.js"></script>
+    <link rel="stylesheet" href="css/zebras1.css">
+    <link rel="stylesheet" href="css/zebras2.css">
+    <link rel="stylesheet" href="css/largestDifference1.css">
+    <link rel="stylesheet" href="css/largestDifference2.css">
+    <link rel="stylesheet" href="css/largestDifference3.css">
+    <link rel="stylesheet" href="css/otherImages1.css">
+    <link rel="stylesheet" href="css/otherImages2.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <h1>Demonstracija HTTP/2 Učinkovitosti</h1>
+        <p>Ovaj projekt demonstrira brže učitavanje vlastite web stranice korištenjem HTTP/2 protokola. U prvom dijelu projekta smo instalirali web poslužitelj nginx, izradili vlastiti SSL certifikat, aktivirali HTTPS/SSL, konfigurirali podršku za HTTP/2 protokol u nginx poslužitelju, i uključili HTTP/2 protokol. Nakon toga, potvrdili smo da je podrška za HTTP/2 protokol uspješno uključena.</p>
+        <p>U drugom dijelu projekta smo stvorili direktorij "lab4" u html direktoriju poslužitelja i izradili vlastitu web stranicu koja sadržava tekst i veći broj CSS ili JS datoteka, te više pojedinačnih datoteka slika (JPEG, PNG, svakako više od 10).</p>
+    </header>
+    <main>
+        <section class="featured-zebras">
+            <h2>Istaknute zebre različitih veličina</h2>
+            <!-- JS će generirati slike zebra ovdje -->
+        </section>
+        <section class="largest-difference">
+            <h2>Najveća razlika u veličini izemđu dviju slika</h2>
+            <!-- JS će generirati slike iz "largest difference" ovdje -->
+        </section>
+        <section class="all-images" id="imageGallery">
+            <h2>Ostale slike</h2>
+            <!-- JS će generirati ostale slike ovdje -->
+        </section>
+    </main>
+    <footer>
+        Footer
+    </footer>
+
+</body>
+</html>
